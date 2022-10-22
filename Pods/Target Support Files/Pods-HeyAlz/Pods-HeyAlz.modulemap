@@ -1,0 +1,6 @@
+framework module Pods_HeyAlz {
+  umbrella header "Pods-HeyAlz-umbrella.h"
+
+  export *
+  module * { export * }
+}

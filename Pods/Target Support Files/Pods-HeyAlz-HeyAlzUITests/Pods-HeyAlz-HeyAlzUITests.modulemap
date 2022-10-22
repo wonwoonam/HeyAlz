@@ -1,0 +1,6 @@
+framework module Pods_HeyAlz_HeyAlzUITests {
+  umbrella header "Pods-HeyAlz-HeyAlzUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
