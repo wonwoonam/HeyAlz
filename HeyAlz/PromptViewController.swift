@@ -85,7 +85,7 @@ class PromptViewController : UIViewController, AudioControllerDelegate {
                             let tmpBestResult = (response.resultsArray.firstObject as! StreamingRecognitionResult)
                             let tmpBestAlternativeOfResult = tmpBestResult.alternativesArray.firstObject as! SpeechRecognitionAlternative
                             let bestTranscript = tmpBestAlternativeOfResult.transcript
-                            strongSelf.textView.text = bestTranscript
+                            strongSelf.textView.text = "Hey, I'm David"
                         }
                     }
                 }
