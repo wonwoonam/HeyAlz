@@ -23,6 +23,8 @@
 		5BF8F04629047316002D4C05 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF8F04429047316002D4C05 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5BF8F04A290473D7002D4C05 /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8F049290473D7002D4C05 /* Unity.swift */; };
 		5BF8F04C2904764D002D4C05 /* UnityEmbedd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8F04B2904764D002D4C05 /* UnityEmbedd.swift */; };
+		5BF90CBA2912DE3900873B2F /* SecondPromptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF90CB92912DE3900873B2F /* SecondPromptVC.swift */; };
+		5BF90CBC2912FC5900873B2F /* ThirdPromptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF90CBB2912FC5900873B2F /* ThirdPromptVC.swift */; };
 		80F26888964E537FF2E4CEC1 /* Pods_HeyAlz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8FC02E8F94CF4CD3A48B0E /* Pods_HeyAlz.framework */; };
 		D32303B58A8E216474EC0ABE /* Pods_HeyAlzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455E8B698EBD531A984FCF1E /* Pods_HeyAlzTests.framework */; };
 		E4E41F6C3D3F1C202D3D2252 /* Pods_HeyAlz_HeyAlzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C117244B9BC1AC71AF969F84 /* Pods_HeyAlz_HeyAlzUITests.framework */; };
@@ -82,6 +84,8 @@
 		5BF8F04429047316002D4C05 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF8F049290473D7002D4C05 /* Unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity.swift; sourceTree = "<group>"; };
 		5BF8F04B2904764D002D4C05 /* UnityEmbedd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityEmbedd.swift; sourceTree = "<group>"; };
+		5BF90CB92912DE3900873B2F /* SecondPromptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPromptVC.swift; sourceTree = "<group>"; };
+		5BF90CBB2912FC5900873B2F /* ThirdPromptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPromptVC.swift; sourceTree = "<group>"; };
 		646D78C2663B7FE04D8C6D18 /* Pods-HeyAlz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyAlz.debug.xcconfig"; path = "Target Support Files/Pods-HeyAlz/Pods-HeyAlz.debug.xcconfig"; sourceTree = "<group>"; };
 		710D284119492764CF5A59B2 /* Pods-HeyAlz-HeyAlzUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyAlz-HeyAlzUITests.release.xcconfig"; path = "Target Support Files/Pods-HeyAlz-HeyAlzUITests/Pods-HeyAlz-HeyAlzUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8BF7DE595C280216B62AE8BF /* Pods-HeyAlz-HeyAlzUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeyAlz-HeyAlzUITests.debug.xcconfig"; path = "Target Support Files/Pods-HeyAlz-HeyAlzUITests/Pods-HeyAlz-HeyAlzUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				5BE7078829044B560035A128 /* HeyAlz-Bridging-Header.h */,
 				5BF8F049290473D7002D4C05 /* Unity.swift */,
 				5BF8F04B2904764D002D4C05 /* UnityEmbedd.swift */,
+				5BF90CB92912DE3900873B2F /* SecondPromptVC.swift */,
+				5BF90CBB2912FC5900873B2F /* ThirdPromptVC.swift */,
 			);
 			path = HeyAlz;
 			sourceTree = "<group>";
@@ -445,11 +451,13 @@
 			files = (
 				5BDF0CD029036E5400BBC592 /* ViewController.swift in Sources */,
 				5BDF0CCC29036E5400BBC592 /* AppDelegate.swift in Sources */,
+				5BF90CBC2912FC5900873B2F /* ThirdPromptVC.swift in Sources */,
 				5BE70787290447DC0035A128 /* SpeechRecognitionService.swift in Sources */,
 				5BE707612904034B0035A128 /* PromptViewController.swift in Sources */,
 				5BDF0CCE29036E5400BBC592 /* SceneDelegate.swift in Sources */,
 				5BF8F04A290473D7002D4C05 /* Unity.swift in Sources */,
 				5BF8F04C2904764D002D4C05 /* UnityEmbedd.swift in Sources */,
+				5BF90CBA2912DE3900873B2F /* SecondPromptVC.swift in Sources */,
 				5BE70786290447DC0035A128 /* AudioController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

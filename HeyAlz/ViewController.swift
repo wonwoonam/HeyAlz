@@ -41,7 +41,10 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
     
     func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
         let fileURL = urls[0]
-        print(fileURL)
+       print("hihi")
+        
+        let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "prompt1") as! PromptViewController
+        self.present(loginVC, animated:true, completion:nil)
     }
 }
 

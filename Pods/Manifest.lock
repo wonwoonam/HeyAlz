@@ -643,9 +643,11 @@ PODS:
   - gRPC/Interface-Legacy (1.49.0):
     - gRPC-RxLibrary/Interface (= 1.49.0)
   - Protobuf (3.21.8)
+  - RangeSeekSlider (1.8.0)
 
 DEPENDENCIES:
   - googleapis (from `.`)
+  - RangeSeekSlider
 
 SPEC REPOS:
   trunk:
@@ -658,6 +660,7 @@ SPEC REPOS:
     - gRPC-ProtoRPC
     - gRPC-RxLibrary
     - Protobuf
+    - RangeSeekSlider
 
 EXTERNAL SOURCES:
   googleapis:
@@ -674,7 +677,8 @@ SPEC CHECKSUMS:
   gRPC-ProtoRPC: 1c223e0f1732bb8d0b9e9e0ea60cc0fe995b8e2d
   gRPC-RxLibrary: 92327f150e11cf3b1c0f52e083944fd9f5cb5d1e
   Protobuf: 0a11f3000cd10ffa17611bf96e66a66b25c956e4
+  RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
 
-PODFILE CHECKSUM: 8a2a78e4798644f172bf5db5d88ebcb18981c40e
+PODFILE CHECKSUM: 79b11badfece9e9f18c04a6681188ab467940ddb
 
 COCOAPODS: 1.11.3

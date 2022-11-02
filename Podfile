@@ -7,6 +7,7 @@ target 'HeyAlz' do
 
   # Pods for HeyAlz
   pod ‘googleapis’, :path => ‘.’
+  pod 'RangeSeekSlider'
 
   target 'HeyAlzTests' do
     inherit! :search_paths
